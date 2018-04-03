@@ -1,10 +1,10 @@
 {
-  {
-    "template": ["filebeat-7.0.0-alpha1-*"],
-    "index_patterns": "filebeat-7.0.0-alpha1-*",
-    "settings": {
-      "number_of_shards": 1
-    }
+  "template": ["filebeat-7.0.0-alpha1-*"],
+  "index_patterns": "filebeat-7.0.0-alpha1-*",
+  "settings": {
+    "number_of_shards": 1
+  }
+}
   "mappings": {
     "doc": {
       "_meta": {
